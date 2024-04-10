@@ -46,6 +46,8 @@ class Network(IntEnum):
     Scroll = 534352
     ScrollSepolia = 534351
     Mumbai = 80001
+    Core = 1116
+    CoreTestnet = 1115
 
 
 MULTICALL_ADDRESSES: Dict[int, str] = {
@@ -68,7 +70,8 @@ MULTICALL_ADDRESSES: Dict[int, str] = {
     Network.NeonTestnet: "0xcFC8002c27985410F7a5Df76f418E5F1a460e1eb",
     Network.Scroll: "",
     Network.ScrollSepolia: "0xA17786896F1b5CF22600925cB680998cae8401f5",
-    Network.Mumbai: "0x4af321fdc5bcBcaC8d96571EE3890995D8c8218c"
+    Network.Mumbai: "0x4af321fdc5bcBcaC8d96571EE3890995D8c8218c",
+    Network.CoreTestnet: "0xDFB1A04C3B5E2a1dF09CF70035AE6d3049a0dF97"
 }
 
 MULTICALL2_ADDRESSES: Dict[int, str] = {
@@ -92,8 +95,8 @@ MULTICALL2_ADDRESSES: Dict[int, str] = {
     Network.Neon: "",
     Network.NeonTestnet: "0x25ca3395E673DEDd37345639F65D011844931f1C",
     Network.Scroll: "",
-    Network.ScrollSepolia: "0x3a4420401d769B8a7755B537c04aD03238614E7e",
-    Network.Mumbai: "0x02Edc281cfE3EAefaA34AC354337486C471F7B59"
+    Network.Mumbai: "0x02Edc281cfE3EAefaA34AC354337486C471F7B59",
+    Network.CoreTestnet: "0xDFB1A04C3B5E2a1dF09CF70035AE6d3049a0dF97" 
     
 }
 
