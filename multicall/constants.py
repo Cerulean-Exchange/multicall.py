@@ -71,6 +71,7 @@ MULTICALL_ADDRESSES: Dict[int, str] = {
     Network.Scroll: "",
     Network.ScrollSepolia: "0xA17786896F1b5CF22600925cB680998cae8401f5",
     Network.Mumbai: "0x4af321fdc5bcBcaC8d96571EE3890995D8c8218c",
+    Network.Core: "0x5cC514535ACD593A48aED10c65E00AB479f47E7A",
     Network.CoreTestnet: "0xDFB1A04C3B5E2a1dF09CF70035AE6d3049a0dF97"
 }
 
@@ -96,6 +97,7 @@ MULTICALL2_ADDRESSES: Dict[int, str] = {
     Network.NeonTestnet: "0x25ca3395E673DEDd37345639F65D011844931f1C",
     Network.Scroll: "",
     Network.Mumbai: "0x02Edc281cfE3EAefaA34AC354337486C471F7B59",
+    Network.Core: "0x5cC514535ACD593A48aED10c65E00AB479f47E7A",
     Network.CoreTestnet: "0xDFB1A04C3B5E2a1dF09CF70035AE6d3049a0dF97" 
     
 }
